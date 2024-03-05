@@ -20,8 +20,9 @@
       versioning: "regex:^(?<major>\\d+)?\\.(?<minor>\\w+?)?_(?<patch>\\w+)?-(?<build>\\d+)?$",
     },
     {
-      matchPackageNames: ["jenkins/jenkins"],
+      matchPackageNames: ["jenkins/jenkins", "docker.io/jenkins/jenkins"],
       versioning: "regex:^(?<major>\\d+?)\\.(?<minor>\\d+?)\\.(?<patch>\\d+?)(-(?<compatibility>\\w+))?$",
+      groupName: "jenkins/jenkins"
     },
     {
       matchFileNames: ["charts/jenkins/**"],
