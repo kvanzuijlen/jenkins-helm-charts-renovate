@@ -3,7 +3,7 @@
   onboarding: false,
   requireConfig: "ignored",
   platform: "github",
-  repositories: ["jenkinsci/helm-charts"],
+  repositories: ["kvanzuijlen/jenkins-helm-charts-renovate"],
   // eslint-disable-next-line
   allowedPostUpgradeCommands: ['^\.github\/renovate-postupgrade\.sh "{{{depName}}}" "{{{newVersion}}}"$'],
   prConcurrentLimit: 0,
